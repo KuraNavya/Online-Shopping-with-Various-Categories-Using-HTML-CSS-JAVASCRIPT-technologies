@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Add Gifts to Shopping Cart</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="skeleton.css">
+    <link rel="stylesheet" href="custom.css">
+</head>
+<body>
+<header id="header" class="header">
+    <div class="container">
+        <div class="row">
+            <div class="four columns">
+                <img src="logo (1).jpg" id="logo">
+            </div>
+            <div class="two columns u-pull-right">
+                <ul>
+                    <li class="submenu">
+                            <img src="cart.png" id="img-cart">
+                            <div id="shopping-cart">
+                                    <table id="cart-content" class="u-full-width">
+                                        <thead>
+                                            <tr>
+                                                <th>Image</th>
+                                                <th>Name</th>
+                                                <th>Price</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+
+                                    <a href="#" id="clear-cart" class="button u-full-width">Clear Cart</a>
+                            </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </header>
+
+
+    <div id="hero">
+        <div class="container">
+            <div class="row">
+                    <div class="six columns">
+                        <div class="hero-content">
+                                <h2>Buy Best Gifts Something Today</h2>
+                                <p>A Moment of Choosing Amazing Gifts</p>
+                                <form action="#" id="search" method="post" class="form">
+                                    <input class="u-full-width" type="text" placeholder="What Do You Want To Buy? " id="search-Gift">
+                                    <input type="submit" id="submit-search-Gift" class="submit-search-Gift">
+                                </form>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-bar">
+        <div class="container">
+            <div class="row">
+                   <div>
+                        <p>20,000 Best Gifts<p><br>
+                        <p>Buy Amazing Gifts</p>
+                    </div>   
+
+                   <div>
+                        <p>Expert Instructors<br>
+                        A moment of choosing Best Gift</p>
+                    </div>
+                    <div>
+                        <p>Lifetime access <br>
+                        Gifts for all kind</p>
+                    </div>    
+                    
+            </div>
+        </div>
+
+    </div>
+
+    <div id="Gifts-list" class="container">
+        <h1 id="heading" class="heading">Online Gifts</h1>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="handloom.jpg" class="Gift-image u-full-width">
+                    <div class="info-card">
+                        <h4>Handloom Gifts</h4>
+                        <p>Handmade</p>
+                        <img src="stars.png">
+                        <p class="price">Rs.500  <span class="u-pull-right ">Rs.450</p>
+                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="1">Add to Cart</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="boquae.jpg" class="Gift-image u-full-width">
+                        <div class="info-card">
+                            <h4>Boquae</h4>
+                            <p>You bring the love...Freshness Guaranteed!</p>
+                            <img src="stars.png">
+                            <p class="price">Rs.300  <span class="u-pull-right ">Rs.250</span></p>
+                            <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="2">Add to Cart</a>
+                        </div>
+                    </div>
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="dresses.jpg" class="Gift-image u-full-width">
+                        <div class="info-card">
+                            <h4>Dresses</h4>
+                            <p>A fashion destination.Style for the leading lady in you...</p>
+                            <img src="stars.png">
+                            <p class="price">Rs.1500  <span class="u-pull-right ">Rs.1200</span></p>
+                            <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="3">Add to Cart</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="cake.jpg" class="Gift-image u-full-width">
+                    <div class="info-card">
+                        <h4>Cake</h4>
+                        <p>Love at first bite.... The home of fresh baking.</p>
+                        <img src="stars.png">
+                        <p class="price">Rs.850  <span class="u-pull-right ">Rs.800</span></p>
+                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="4">Add to Cart</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="cosmetics.jpg" class="Gift-image u-full-width">
+                        <div class="info-card">
+                            <h4>Cosmetics</h4>
+                            <p>Divine Path for Bright life.Bring Perfect Beauty.</p>
+                            <img src="stars.png">
+                            <p class="price">Rs.1000  <span class="u-pull-right ">Rs.800</span></p>
+                            <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="5">Add to Cart</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="jwellery.jpg" class="Gift-image u-full-width">
+                        <div class="info-card">
+                            <h4>Jwellery</h4>
+                            <p>Bring sparkle to everyday life.</p>
+                            <p> Jewelry to fit occasion</p>
+                            <img src="stars.png">
+                            <p class="price">Rs.1200 <span class="u-pull-right ">Rs.1000</span></p>
+                            <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="6">Add to Cart</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="watch.jpg" class="Gift-image u-full-width">
+                    <div class="info-card">
+                        <h4>Watch</h4>
+                        <p>Adding you a new Style...Show the world your best!</p>
+                        <img src="stars.png">
+                        <p class="price">Rs.1400  <span class="u-pull-right ">Rs.1200</span></p>
+                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="7">Add to Cart</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="download (8).jfif" class="Gift-image u-full-width">
+                        <div class="info-card">
+                            <h4>Books</h4>
+                            <p>Learn New Skills.The Perfect book is just waiting</p>
+                            <img src="stars.png">
+                            <p class="price">Rs.600  <span class="u-pull-right ">Rs.500</span></p>
+                            <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="8">Add to Cart</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="Instrument.jpg" class="Gift-image u-full-width">
+                        <div class="info-card">
+                            <h4>Instruments</h4>
+                            <p>Magical moments start with music.</p>
+                            <p>Music brings harmony to the world.</p>
+                            <img src="stars.png">
+                            <p class="price">Rs.2000  <span class="u-pull-right ">Rs.1500</span></p>
+                            <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="9">Add to Cart</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+        <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="wooden.jpg" class="Gift-image u-full-width">
+                        <div class="info-card">
+                            <h4>Wooden Gift</h4>
+                            <p>We make your dreams real..</p>
+                            <p>Your wood wish is our wooden command</p>
+                            <img src="stars.png">
+                            <p class="price">Rs.1200  <span class="u-pull-right ">Rs.1000</span></p>
+                            <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="10">Add to Cart</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="teddy gift.jpg" class="Gift-image u-full-width">
+                            <div class="info-card">
+                                <h4>Teddy Bears</h4>
+                                <p>We all love playing with stuffed toys,and the most famous of all are the Teddy Bears    </h4>
+                          <p>Here are Best</p>
+                                <img src="stars.png">
+                                <p class="price">Rs.1400  <span class="u-pull-right ">Rs.1200</span></p>
+                                <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="11">Add to Cart</a>
+                            </div>
+                        </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="laddu.jpg" class="Gift-image u-full-width">
+                            <div class="info-card">
+                                <h4>Delicious Sweets</h4>
+                                <p>You Deserve A Sweet Treat Today.</p>
+                                <img src="stars.png">
+                                <p class="price">Rs.200  <span class="u-pull-right ">Rs.150</span></p>
+                                <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="12">Add to Cart</a>
+                            </div>
+                        </div> <!--.card-->
+                </div>
+            </div> <!--.row-->
+    </div>
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+                    <div class="four columns">
+                            <nav id="primary" class="menu">
+                                <a class="link" href="#">For Business</a>
+                                <a class="link" href="#">Become an Instructor</a>
+                                <a class="link" href="#">Support</a>
+                                <a class="link" href="#">Help</a>
+                            </nav>
+                    </div>
+                    <div class="four columns">
+                            <nav id="secondary" class="menu">
+                                <a class="link" href="#">About Us</a>
+                                <a class="link" href="#">Work with us</a>
+                                <a class="link" href="#">Blog</a>
+                            </nav>
+                    </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+   
+
+</body>
+</html>
